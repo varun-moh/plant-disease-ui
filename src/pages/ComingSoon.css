@@ -1,0 +1,31 @@
+/* src/pages/ComingSoon.css */
+
+.coming-soon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.coming-soon-message {
+  font-size: 2rem;
+  color: #61dafb;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.home-button {
+  background-color: #34495e;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.home-button:hover {
+  background-color: #4e6a85;
+}
