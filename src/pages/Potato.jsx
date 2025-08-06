@@ -50,7 +50,7 @@ const Potato = () => {
     try {
       const formData = new FormData();
       formData.append("file", selectedFile);
-      const response = await fetch("${import.meta.env.VITE_API_URL}/predict", {
+      const response = await fetch(import.meta.env.VITE_API_URL + "/predict", {
         method: "POST",
         body: formData,
       });
